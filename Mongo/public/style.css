@@ -1,0 +1,38 @@
+body {
+  margin: 10px;
+}
+
+.chat-box {
+  background-color: lightblue;
+  padding: 10px;
+  border-radius: 20px;
+  display: inline-block;
+  margin: 5px;
+}
+
+.message {
+  background-color: darkgray;
+  padding: 5px 10px;
+  border-radius: 15px;
+  position: relative;
+}
+
+#btn{
+    padding: 12px ;
+    font-size: 20px;
+    border-radius: 10px;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    background-color: black;
+    color: #fff;
+}
+ form>button{
+  background-color: black;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+
+ }
