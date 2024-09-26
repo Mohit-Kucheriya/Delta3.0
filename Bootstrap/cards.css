@@ -1,0 +1,24 @@
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+.card {
+  border-radius: 10px;
+  padding: 5px;
+  border: 1px solid #f3f3f3;
+  box-shadow: 1px 1px 4px gainsboro;
+  transition: 2s ease-in-out;
+  transform: scale(0.95);
+}
+
+img {
+  border-radius: 10px;
+}
+
+.card:hover {
+  box-shadow: 2px 2px 8px gainsboro;
+  transform: scale(1);
+}
