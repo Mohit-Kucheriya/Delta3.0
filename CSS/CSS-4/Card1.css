@@ -1,0 +1,31 @@
+#container {
+  display: flex;
+  flex-direction: row;
+}
+.card {
+  width: 200px;
+  height: 350px;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 0 0 5px black;
+  margin: 10px;
+  padding: 10px;
+  transition: 2s ease-in-out;
+  transform: scale(0.9);
+}
+
+img {
+  width: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.des {
+  padding: 2px;
+}
+
+.card:hover {
+  box-shadow: 2px 2px 7px black;
+  transform: scale(1);
+}
+

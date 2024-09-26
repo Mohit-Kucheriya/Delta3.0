@@ -1,0 +1,78 @@
+#container {
+  height: 200px;
+  width: 200px;
+  background-color: #fffb73;
+  border-radius: 50%;
+  box-shadow: 1px 1px 4px black;
+}
+
+.mouth {
+  width: 100px;
+  height: 35px;
+  background-color: #c70039;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  position: absolute;
+  top: 140px;
+  left: 58px;
+}
+
+.left-eye,
+.right-eye {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  display: inline-block;
+  border-radius: 50%;
+  position: absolute;
+  top: 50px;
+  left: 45px;
+}
+
+.right-eye {
+  left: 142px;
+}
+
+#container:hover {
+  box-shadow: 2px 2px 8px black;
+}
+
+#containers {
+  height: 200px;
+  width: 200px;
+  background-color: #fffb73;
+  border-radius: 50%;
+  box-shadow: 1px 1px 4px black;
+  position: absolute;
+  top: 250px;
+}
+
+.mouths {
+  width: 100px;
+  height: 35px;
+  background-color: #c70039;
+  border-radius: 50%;
+  position: absolute;
+  top: 140px;
+  left: 50px;
+}
+
+.left-eyes,
+.right-eyes {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  display: inline-block;
+  border-radius: 50%;
+  position: absolute;
+  top: 50px;
+  left: 40px;
+}
+
+.right-eyes {
+  left: 130px;
+}
+
+#containers:hover {
+  box-shadow: 2px 2px 8px black;
+}

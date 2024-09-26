@@ -1,0 +1,70 @@
+/* PRACTICE QS-1  */
+
+* {
+  font-family: "Courier New";
+}
+
+h1 {
+  color: #1b74e4;
+}
+
+#searchbtn {
+  background-color: black;
+  color: white;
+}
+
+.userbtn {
+  background-color: aqua;
+}
+
+/* PRACTICE QS-2  */
+
+/* solution-1 */
+div[id="myid"] p {
+  color: green;
+}
+
+/* solution-2  */
+#myid1 p {
+  color: darkorange;
+}
+
+/* PRACTICE QS-3 */
+/* Question.1 */
+h1 {
+  color: black;
+}
+
+#hello {
+  color: darkblue;
+}
+
+.world {
+  color: darkorange;
+}
+
+/* Question.2 */
+/* div p {
+  background-color: black;
+} */
+
+.bg-color {
+  background-color: aqua;
+}
+
+/* p {
+  background-color:yellow;
+} */
+
+/* Question.3 */
+div.greetDiv .greet {
+  color: black;
+}
+
+.greetDiv p.greet {
+  color: darkred;
+}
+
+.greetDiv .greet {
+  color: darkviolet;
+}

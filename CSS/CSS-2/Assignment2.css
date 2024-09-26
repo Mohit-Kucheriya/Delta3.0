@@ -1,0 +1,67 @@
+/* Question1. */
+#maintopic {
+  color: blue;
+}
+
+/* Question2. */
+* {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* Question3. */
+.heading {
+  font-family: Georgia;
+}
+
+/* Question4. */
+.para {
+  color: white;
+  background-color: cornflowerblue;
+}
+
+/* Question5.  */
+
+/* solution-1 */
+div button {
+  background-color: purple;
+  color: azure;
+}
+
+/* solution-2 */
+button {
+  background-color: purple;
+  color: azure;
+}
+
+/* PART-B (PSEUDO CLASS & ELEMENT) */
+
+/* Question6.  */
+div button:hover {
+  background-color: yellow;
+  color: blue;
+}
+
+/* Question7.  */
+p:nth-of-type(odd) {
+  color: yellow;
+}
+
+/* Question-8  */
+h1::first-letter {
+  color: red;
+}
+
+/* Question9.  */
+
+/* #yes:checked + label {
+  color: darkgreen;
+} */
+
+input[type="checkbox"]:checked + label {
+  color: green;
+}
+
+h4 {
+  text-align: left;
+}

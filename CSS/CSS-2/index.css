@@ -1,0 +1,89 @@
+* {
+  font-family: Lucida Sans Typewriter;
+}
+
+h1,
+h3 {
+  color: #b92b27;
+}
+#login {
+  background-color: white;
+}
+#signup {
+  background-color: #b92b27;
+  color: white;
+}
+
+.upvote {
+  background-color: black;
+  color: white;
+}
+
+.answer {
+  background-color: white;
+  color: black;
+}
+
+/* DESEDANT SELECTOR  */
+.post a {
+  color: darkmagenta;
+  background-color: lightblue;
+}
+
+nav ul li a {
+  color: rgb(8, 0, 255);
+}
+
+/* SIBLING SELECTOR  */
+p + h3 {
+  text-decoration: double underline;
+}
+
+/* CHILD COMBINATOR  */
+div > input {
+  background-color: #ff8e8a;
+}
+
+/* ATTRIBUTE SELECTOR  */
+input[type] {
+  background-color: yellow;
+  color: black;
+}
+
+/* PSEUDEO CLASS:hover  */
+button:hover {
+  background-color: #b92b27;
+  color: white;
+}
+
+/* PSEUDO CLASS:active  */
+p:active {
+  font-weight: bold;
+  color: brown;
+}
+
+/* PSEUDO CLASS:checked */
+/* HERE WE HAVE HAVE SIBLING COMBINATOR  */
+input[type="radio"]:checked + label {
+  color: #b92b27;
+  font-weight: bold;
+}
+
+/* PSEUDO CLASS:nth-of-type() */
+div:nth-of-type(2n) {
+  background-color: cornsilk;
+}
+
+/* PSEUDO ELEMENT  */
+
+h1::first-letter {
+  color: black;
+}
+
+p::first-line {
+  color: brown;
+}
+
+p::selection {
+  background-color: rgb(198, 232, 230);
+}

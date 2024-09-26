@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.goa-body {
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+.location > a {
+  text-decoration: none;
+  color: #0d6dfdf5;
+  opacity: 0.8;
+}
+
+.location > a:hover {
+  opacity: 1;
+  text-decoration: 1px underline #0d6dfd;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 5px;
+  justify-content: space-between;
+}
+
+.card {
+  margin: 1rem;
+  border: 1px solid gainsboro;
+  box-shadow: 0 0 4px gainsboro;
+}
+
+.card:hover {
+  box-shadow: 2px 2px 10px gainsboro;
+}
+
+.card-title {
+  font-size: 18px;
+  padding: 5px 16px;
+}
+
+.card-title:hover {
+  text-decoration: underline #212529;
+}
+
+.card-heading {
+  margin-top: 0.4rem;
+  margin-left: 1.5rem;
+}
+
+.filter {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.filter .btn-light {
+  margin-left: 20px;
+}
