@@ -1,0 +1,19 @@
+.oldPrice {
+  text-decoration: line-through;
+}
+.newPrice {
+  font-weight: bold;
+}
+.Price {
+  background-color: blanchedalmond;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+}
+
+.Price span {
+  display: inline-block;
+  height: 30px;
+
+
+}
