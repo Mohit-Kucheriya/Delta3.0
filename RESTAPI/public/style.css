@@ -1,0 +1,70 @@
+/* .conatiner {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+} */
+
+.post {
+  background-color: lightgrey;
+  width: 300px;
+  height: 250px;
+  margin: 10px;
+}
+
+h1 {
+  color: maroon;
+}
+
+h3 {
+  font-style: italic;
+}
+
+/* button {
+  margin-left: 10px;
+  padding: 10px;
+  font-size: medium;
+  border-radius: 10px;
+  border: none;
+  background-color: lightgrey;
+  opacity: 0.8;
+}
+
+button a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+button:hover {
+  background-color:   lightgrey;
+  opacity: 1;
+}
+
+.detail {
+  background-color: #fff;
+  position: relative;
+  top: 45%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  opacity: 0.8;
+}
+.detail:hover{
+  background-color:  #fff;
+  opacity: 1;
+}
+
+.back{
+  background-color: #fff;
+  position: relative;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.8;
+}
+
+.back:hover{
+  background-color:  #fff;
+  opacity: 1;
+
+} */
+
