@@ -10,8 +10,6 @@ Inside this repository, you'll find structured notes, code samples, and project 
 - Working with **Node.js** for backend development and integrating databases like **MongoDB**.
 - Developing full-stack projects using **React**, hooks, Redux, and more.
 
-Follow along as I delve deeper into the world of web development through Delta 3.0!
-
 ## Introduction to Web Development
 
 | **Category**   | **Chapters**                    | **Overview**                                                                                                       |
