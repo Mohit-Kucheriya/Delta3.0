@@ -1,4 +1,4 @@
-# Web Development Course - Delta 3.0 (Apna College)
+# Web Development Course - Delta3.0 (Apna College)
 
 This repository is dedicated to documenting my journey through the **Delta 3.0 Web Development Course** by **Apna College**. The course covers a comprehensive range of web development topics, from **HTML** and **CSS** to advanced **JavaScript** concepts, **Node.js**, and **React**.
 
